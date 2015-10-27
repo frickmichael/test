@@ -9,7 +9,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/sign-in/", function(req, res) {
-    res.send("Bitte einlogen");
+    res.send("Bitte einlogen!");
 });
 
 app.get("/user/:id", function(req, res) {
