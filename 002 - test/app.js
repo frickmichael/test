@@ -12,6 +12,10 @@ app.get("/sign-in/", function(req, res) {
     res.send("Bitte einlogen");
 });
 
+app.get("/sign-out/", function(req, res) {
+    res.send("Go");
+});
+
 app.get("/user/:id", function(req, res) {
     res.send("User:" + req.params.id);
 });
